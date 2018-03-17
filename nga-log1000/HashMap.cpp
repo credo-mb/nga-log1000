@@ -83,10 +83,12 @@ void HashMap::remove(const std::string &key) {
 
 int HashMap::compteur(const std::string &key){
     int valeur = 0;
-    if(!get(key,valeur))
-        put(key,1);
-    else
-        put(key,++valeur);
+    if {(!get(key,valeur)) // modification legere{}
+        put(key,1);}
+    
+    else {
+        put(key,++valeur);}
+
     return valeur;
 }
 
